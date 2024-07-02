@@ -10,7 +10,7 @@ jobs:
   policy-as-code:
     runs-on: ubuntu-latest
     env:
-      SENTINEL_VERSION: 0.26.1
+      SENTINEL_VERSION: 0.26.2
     steps:
       - name: Check-out source code
         uses: actions/checkout@v4
